@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="CSS/stylesheet.css">
+    <title>Contact Us</title>
+    
+    <style>
+
+
+
+    </style>
+</head>
+<body style = "font-family:sans-serif;"><!--(stackoverflow,2022)-->
+    
+    <div class = "topnav">
+        <div class = "logo">
+            <img src ="assets/logo.png" alt="Logo of Skateboarding made easy" style ="height: 100px; width: 100px;"/>
+        </div>
+
+        <div class="navLinks">
+            <div><a href="index.html">Home</a><!--Nav bar--></div>
+            <div> <a href="aboutUs.html">About Us</a></div>
+            <div><a href="ourWork.html">Our Work</a></div>
+            <div><a href="contactUs.html">Contact Us</a></div>
+            <div><a href="gallery.html">Gallery</a></div>
+        </div>
+    </div>  
+       <center>
+        <br>
+       
+      
+    </center>     
+        <br>
+    <center>
+
+      
+
+        <br>
+        <br>
+
+        <div class = "contactUs">
+        <p><h1>Want to book a appointment?</h1></p>
+        <p><h2>Contact us using any of the following methods:</h2></p>
+        <br>
+
+    <h3>Send us a email to: <a href = "mailto: Simonswart91@gmail.com">Simonswart91@gmail.com</a></h3>
+    <h3>Call us at: 0617083179</p>
+        <h3>Go follow us on <a href="https://www.facebook.com/profile.php?id=100081564983427" target="_blank">Facebook</a></h3>
+        <h3>Go follow us on <a href="https://www.instagram.com/" target="_blank">Instagram</a></h3>
+    </div>
+
+
+
+
+
+
+       <p><h2><b>Please fill in this form</b></h2></p>
+
+        
+            <!--Forms-->
+    
+        <div class="form">
+
+
+
+            <form action ="mailto::simonswart91@gmail.com" method = "post" enctype = "text/plain"
+            id ="form" onsubmit="validateEmail()">
+                <!--(The IIE,2024)-->
+        
+                <label for ="firstName">First Name:</label>
+                <input type = "text" id ="firstName" name = "firstName" required>
+        
+                <br><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type = "text" id ="lastName" name = "lastName" required>
+        
+                <br><br>
+                
+                <label for="age">Age:</label><br>
+                <input type = "text" id ="age" name = "age" required>
+        
+                <br><br>
+
+                <label for="contactNumber">Contact Number:</label>
+                <input type = "text" id ="contactNumber" name = "contactNumber"required>
+        
+                <br><br>
+
+                <label for="email">Email Adress:</label>
+                <input type = "text" id ="email" name = "email"required>
+        
+                <br><br>
+                
+                
+
+
+
+
+
+            <div class = "checkboxContainer">
+                <input type="radio" id = "male" name = "gender" value = "male">
+                <label for="male">Male</label>
+        
+             
+
+                <input type="radio" id = "female" name = "gender" value = "female">
+                <label for="female">Female</label>
+        
+               
+
+                <input type="checkbox" id = "course1" name ="course1" value = "beginner">
+                <label for="course1">Beginner</label>
+        
+                
+
+                <input type="checkbox" id = "course2" name ="course2" value = "intermediate">
+                <label for="course2">Intermediate</label>
+        
+
+                <input type="checkbox" id = "course3" name ="course3" value = "advanced">
+                <label for="course3">Advanced</label>
+                
+               
+
+                <input type="checkbox" id = "course4" name ="course4" value = "custom">
+                <label for="course4">Custom</label>
+            </div>
+
+
+
+
+
+
+
+                <br><br>
+    
+                
+                <br><br> 
+
+
+            <div class="buttonContainer">
+                <input type="submit" value="Submit">
+                <input type = "reset" value = "Clear">
+            </div>
+
+            </form>
+        </div><!--(W3Schools,2024)--> 
+        
+        <script>
+                  // (The IIE,2024)
+                  let form = document.getElementById("form");
+
+                    function validateEmail() {
+                    let email = document.getElementById('email').value;
+                     let check = /^([a-zA-Z0-9_\,\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/
+                    return check.test(email);
+                    }
+
+                form.addEventListener('submit', function (event) {
+                 event.preventDefault();
+
+                if (validateEmail()) {
+                form.submit();
+                 } else {
+                     alert("Please Enter A Valid Email.");
+                    form.classList.add("invalid");
+                    document.getElementById("email").value = "";
+                }
+                })
+        </script>
+    
+    </center>  <!--(W3Schools,2024)-->                                     
+            <br>
+            <br>
+<center>
+    <h3>This is where you can find us</h3>
+
+            
+                <div class = "googleMaps"><!--(W3Schools,2024)-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.7458378214124!2d25.64215027638013!3d-33.97337162448396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7ad2a155d74cd5%3A0xbbf7af8538991df2!2sKings%20Beach%20Skate%20Park!5e0!3m2!1sen!2snl!4v1723120357254!5m2!1sen!2snl" width="100%" height="700px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><!--(Google Maps,2024)-->
+
+                </div>
+               
+
+            
+       
+
+        <br>
+    </center><!--(W3Schools,2024)-->
+
+    <center>
+        <footer>  
+        <p>
+            <script>
+                var theDate =new Date()
+                document.write("&copy; " + theDate.getFullYear())
+                document.write(" - SkateboardingMade Easy | Last modified: ")
+                var theModifiedDate = new Date(document.lastModified)
+                document.write(theModifiedDate.toDateString())
+            </script>
+        
+            <br>
+            Powered By Lighthouse Development
+        </p>
+        </footer>
+        </center>
+        
+
+
+</body>
+</html>
+
+<!--Reffrence list:
+Canva.2024.Thynk Unlimited. [Website]. Available at: https://www.canva.com/design/DAGNxLn3yH4/LtuIkE8CdPKOPQA3V10McQ/edit [Accessed 14 August 2024]
+stackoverflow.2022.Where to set font-family: body or html element?. [online]. Available at:https://stackoverflow.com/questions/42925682/where-to-set-font-family-body-or-html-element[Accessed 14 August 2024]
+Google maps.2024.Kings Beach Skate Park. [Online].https://www.google.com/maps/place/Kings+Beach+Skate+Park/@-33.9733716,25.6421449,17z/data=!3m1!4b1!4m6!3m5!1s0x1e7ad2a155d74cd5:0xbbf7af8538991df2!8m2!3d-33.9733761!4d25.6447252!16s%2Fg%2F11cjgkfwf3?entry=ttu[Accessed 14 August 2024].
+The IIE.2024.Web Development(Introduction)[WEDE520].The Independent Institute of Education:Unpublished.
+W3Schools.2024.HTML <center> Tag. [online]. Available at:https://www.w3schools.com/tags/tag_center.ASP[Accessed 14 August 2024]
+W3Schools.2024.HTML <video> autoplay Attribute. [online]. Available at:https://www.w3schools.com/tags/att_video_autoplay.asp[Accessed 14 August 2024]
+W3Schools.2024.HTML <video> muted Attribute. [online]. Available at:https://www.w3schools.com/tags/att_video_muted.asp#:~:text=Definition%20and%20Usage,the%20video%20should%20be%20muted.[Accessed 14 August 2024]
+W3Schools.2024.How TO - Top Navigation. [online]. Available at:https://www.w3schools.com/howto/howto_js_topnav.asp[Accessed 14 August 2024]
+
+
+
+-->

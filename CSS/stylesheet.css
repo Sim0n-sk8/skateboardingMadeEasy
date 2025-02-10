@@ -1,0 +1,421 @@
+body{
+
+    background-color: #fffcf0 ;
+    font-family:sans-serif;
+   
+}
+
+/*(W3Schools,2024)*/
+/*For the border on top of the page*/
+
+
+footer{
+  background-color: #ff5757;
+  padding: 20px;
+  border-radius: 15px ;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}/*(W3Schools,2024)*/
+
+
+
+
+
+.contentGal{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}/*(W3Schools,2024)*/
+
+.imgRight{
+  margin-left: 20px;
+  margin-right: 15px;
+
+
+}/*(W3Schools,2024)*/
+
+.videoHome{
+  margin-left: 120px;
+  margin-right: 170px;
+}/*(W3Schools,2024)*/
+
+
+.title{
+  font-size: 25px;
+  border: 15px solid white;
+  border-radius: 15px;
+ 
+}/*(W3Schools,2024)*/
+
+.border{
+  display: flex;
+  justify-content: center;
+  background-color: #ff5757;
+  padding: 10px;
+ border-radius: 15px;
+
+}/*(W3Schools,2024)*/
+
+
+
+
+
+.googleMaps{
+  align-items: center;
+  width: 85%;
+  height: 50%;
+  background-color: #ff5757;
+  padding: 10px;
+ border-radius: 15px;
+  font-size: larger;
+}/*(W3Schools,2024)*/
+
+
+.videoFloatRight{
+  
+  float:right ;
+  margin-right: 20px;
+}/*(W3Schools,2024)*/
+
+.videoFloatLeft{
+  align-content: center;
+  float: left;
+  margin-left: 20px;
+}/*(W3Schools,2024)*/
+.textBorder{
+  color: black;
+  text-shadow:0px 0px 30px  white;
+  
+}/*(W3Schools,2024)*/
+
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: #ff5757;
+
+ border-radius: 15px;
+width: auto;
+}/*(W3Schools,2024)*/
+
+
+
+
+.link a{ 
+  text-decoration: none;
+  color: #000000;
+  background-color: #fc8888;
+  border-radius: 15px;
+  max-width: max-content;
+}/*(W3Schools,2024)*/
+
+
+@media only screen and (max-width: 620px) {
+ 
+  .videoFloatLeft, .videoFloatRight, .googleMaps {
+    width: 100%;
+  }
+}/*(W3Schools,2024)*/
+
+.topnav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff5757;
+  padding: 20px 30px;
+  border-radius: 15px;
+  height:120px;
+
+}/*(W3Schools,2024)*/
+
+.navLinks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+
+}/*(W3Schools,2024)*/
+
+.topnav > .navLinks >div{
+  background-color: #ff5757;
+  padding: 15px 20px;
+  font-size: 25px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 0 5px;
+
+}/*(W3Schools,2024)*/
+
+.topnav > .navLinks > div a{
+  color:white;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  line-height: 1;
+
+}/*(W3Schools,2024)*/
+
+.topnav > .navLinks > div:hover{
+  background-color: #ea3131;
+  transform:scale(1.05);
+  
+}/*(W3Schools,2024)*/
+
+
+.logo{
+  height:100px;
+  width:100px;
+
+}/*(W3Schools,2024)*/
+
+@media(max-width:768px){
+
+  .topnav{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+
+  }
+
+  .logo {
+    margin-bottom: 15px;
+    height: 120px;
+    width: 120px;
+  }
+
+  .navLinks{
+    width:100%;
+    justify-content: center;
+
+  }
+
+  .topnav > .navLinks > div{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+  }
+
+}/*(W3Schools,2024)*/
+
+.galleryImg{
+  text-align: center;
+  margin: 20px;
+  max-width: 600px;
+
+}/*(W3Schools,2024)*/
+
+.galleryImg img{
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  
+}/*(W3Schools,2024)*/
+
+.galleryImg h1{
+  font-size: 28px;
+  color: #333;
+
+}/*(W3Schools,2024)*/
+
+.galleryImg h2{
+  font-size: 20px;
+  color: #777;
+  
+}/*(W3Schools,2024)*/
+
+main{
+  padding: 20px;
+  text-align: center;
+
+}/*(W3Schools,2024)*/
+
+.gallery img{
+  border-radius: 10px;
+}/*(W3Schools,2024)*/
+
+
+.courses{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  box-shadow: 0 4px 10px #ada8a7;
+}/*(W3Schools,2024)*/
+
+
+.courses h3 , .courses h2 {
+  color:#ff5757;
+}/*(W3Schools,2024)*/
+
+
+.form {
+  background-color: #ff5757;
+  width: 50%;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0;
+  
+
+}/*(W3Schools,2024)*/
+
+.form form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}/*(W3Schools,2024)*/
+
+.form label{
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  
+}/*(W3Schools,2024)*/
+
+.form input[type ="text"],
+.form input[type ="email"],
+.form input[type ="number"],
+.form input[type ="radio"],
+.form input[type ="checkbox"]{
+
+
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  border-color: #fff;
+}/*(W3Schools,2024)*/
+
+.form .gender, .form .courses{
+  display:flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  
+
+}/*(W3Schools,2024)*/
+
+.form input [type = "submit"],
+.form input [type = "checkbox"] {
+
+  width:auto;
+  margin-right: 8px;
+
+}/*(W3Schools,2024)*/
+
+.form input[type = "submit"],
+.form input[type = "reset"] {
+  background-color: #fff;
+  color:#ff5757;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px;
+  width: 150px;
+  
+}/*(W3Schools,2024)*/
+
+
+
+ .buttonContainer{
+  margin: 40px;
+  transition: transform 0.2s ease-in-out;
+  
+}/*(W3Schools,2024)*/
+
+.buttonContainer :hover{
+  transform: scale(1.3);
+}/*(W3Schools,2024)*/
+
+
+.checkboxContainer{
+  display: flex;
+  font-size: 15px;
+ 
+}/*(W3Schools,2024)*/
+
+.contactUs{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  box-shadow: 0 4px 10px #ada8a7;
+}/*(W3Schools,2024)*/
+
+
+.contactUs h2, .contactUs h3{
+  color: #000000;
+}/*(W3Schools,2024)*/
+
+
+.contactUs a{
+  color: #ff5757;
+}/*(W3Schools,2024)*/
+
+
+@media(max-width:768px){
+  .checkboxContainer{
+    display: table-column;
+    font-size: 15px;
+   
+  }
+
+  .buttonContainer{
+    margin: 20px;
+  }
+
+  .googleMaps{
+    width: 400px; 
+  }
+    
+  
+    
+}/*(W3Schools,2024)*/
+
+
+
+
+
+
+
+
+
+
+/*
+W3Schools.2024.How TO - Top Navigation. [online]. Available at:https://www.w3schools.com/howto/howto_js_topnav.asp[Accessed 14 August 2024]
+W3Schools.2024.How TO - Responsive Tables. [online]. Available at:https://www.w3schools.com/howto/howto_css_table_responsive.asp[Accessed 26 September 2024]
+W3Schools.2024.Media Queries. [online]. Available at:https://www.w3schools.com/html/html_responsive.asp[Accessed 26 September 2024]
+W3Schools.2024.CSS max-width Property. [online]. Available at:https://www.w3schools.com/cssref/pr_dim_max-width.php#:~:text=The%20max%2Dwidth%20property%20defines,width%20property%20has%20no%20effect.[Accessed 26 September 2024]
+W3Schools.2024.CSS border-radius Property. [online]. Available at:https://www.w3schools.com/cssref/css3_pr_border-radius.php[Accessed 26 September 2024]
+W3Schools.2024.CSS Text Decoration. [online]. Available at:https://www.w3schools.com/css/css_text_decoration.asp[Accessed 26 September 2024]
+W3Schools.2024.CSS justify-content Property. [online]. Available at:https://www.w3schools.com/cssref/css3_pr_justify-content.php[Accessed 26 September 2024]
+W3Schools.2024.CSS Flexbox. [online]. Available at:https://www.w3schools.com/cssref/css3_pr_justify-content.php[Accessed 26 September 2024]
+W3Schools.2024.CSS text-shadow Property. [online]. Available at:https://www.w3schools.com/cssref/css3_pr_text-shadow.php[Accessed 26 September 2024]
+W3Schools.2024.CSS margin-left Property. [online]. Available at:https://www.w3schools.com/cssref/pr_margin-left.php[Accessed 26 September 2024]
+W3Schools.2024.CSS margin-right Property. [online]. Available at:https://www.w3schools.com/cssref/pr_margin-right.php[Accessed 26 September 2024]
+W3Schools.2024.CSS Layout - float and clear. [online]. Available at:https://www.w3schools.com/css/css_float.asp[Accessed 26 September 2024]
+W3Schools.2024.CSS align-content Property. [online]. Available at:https://www.w3schools.com/cssref/css3_pr_align-content.php[Accessed 26 September 2024]
+W3Schools.2024.CSS flex-wrap Property. [online]. Available at:https://www.w3schools.com/CSSref/css3_pr_flex-wrap.php[Accessed 26 September 2024]
+W3Schools.2024.CSS background-color Property. [online]. Available at:https://www.w3schools.com/cssref/pr_background-color.php[Accessed 26 September 2024]
+W3Schools.2024.CSS padding Property. [online]. Available at:https://www.w3schools.com/cssref/pr_padding.php[Accessed 26 September 2024]
+W3Schools.2024.CSS box-shadow Property. [online]. Available at:https://www.w3schools.com/cssref/css3_pr_box-shadow.php[Accessed 7 November 2024]
+W3Schools.2024.CSS Transitions. [online]. Available at:https://www.w3schools.com/css/css3_transitions.asp[Accessed 7 November 2024]
+W3Schools.2024.W3.CSS Input. [online]. Available at:https://www.w3schools.com/w3css/w3css_input.asp[Accessed 7 November 2024]
+
+*/
+
+
+
